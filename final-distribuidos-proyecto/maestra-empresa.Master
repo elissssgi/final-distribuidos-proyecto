@@ -1,0 +1,165 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="maestra-empresa.master.vb" Inherits="final_distribuidos_proyecto.maestra_empresa" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+    <style>
+        /* Estilos para el sidebar */
+        #sidebar {
+            width: 250px;
+            transition: width 0.3s;
+        }
+
+        #sidebar.collapsed {
+            width: 70px;
+        }
+
+        #sidebar .nav-link {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        #sidebar .sidebar-header {
+            font-size: 1.25rem;
+            font-weight: bold;
+            transition: opacity 0.3s;
+        }
+
+        #sidebar.collapsed .sidebar-header,
+        #sidebar.collapsed .nav-link-text {
+            opacity: 0;
+        }
+
+        #sidebar .nav-icon {
+            font-size: 1.2rem;
+        }
+
+        /* Estilo para el contenido principal al cerrar el sidebar */
+        .content-area {
+            transition: margin-left 0.3s;
+        }
+
+        .content-area.collapsed {
+            margin-left: 70px;
+        }
+
+        /* Botón para colapsar el sidebar */
+        #toggleSidebarBtn {
+            font-size: 1.2rem;
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            z-index: 1050;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Botón para mostrar/ocultar sidebar -->
+    <button id="toggleSidebarBtn" class="btn btn-light border" onclick="toggleSidebar()">
+        <i class="bi bi-list"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <div class="d-flex">
+        <nav id="sidebar" class="bg-light border-end">
+            <div class="sidebar-header p-3 text-center">
+                <i class="bi bi-film nav-icon me-2"></i><span>Cine USAT</span>
+            </div>
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="gestionarCine.aspx">
+                        <i class="bi bi-camera-reels nav-icon me-2"></i>
+                        <span class="nav-link-text">Gestionar Cine</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="login.aspx">
+                        <i class="bi bi-person-circle nav-icon me-2"></i>
+                        <span class="nav-link-text">Login</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="entradas.aspx">
+                        <i class="bi bi-ticket-perforated nav-icon me-2"></i>
+                        <span class="nav-link-text">Entradas</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="comprobante.aspx">
+                        <i class="bi bi-receipt nav-icon me-2"></i>
+                        <span class="nav-link-text">Comprobante</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="director.aspx">
+                        <i class="bi bi-person-badge nav-icon me-2"></i>
+                        <span class="nav-link-text">Director</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="formaPago.aspx">
+                        <i class="bi bi-credit-card nav-icon me-2"></i>
+                        <span class="nav-link-text">Forma de Pago</span>
+                    </a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#submenu" role="button" aria-expanded="false" aria-controls="submenu">
+                        <i class="bi bi-boxes nav-icon me-2"></i>
+                        <span class="nav-link-text">Combo</span>
+                        <i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <div class="collapse" id="submenu">
+                        <ul class="nav flex-column ms-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="combo.aspx">Combo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="dulce.aspx">Dulce</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Contenido Principal -->
+        <div class="content-area">
+            
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script para mostrar/ocultar sidebar -->
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const contentArea = document.querySelector('.content-area');
+            sidebar.classList.toggle('collapsed');
+            contentArea.classList.toggle('collapsed');
+        }
+    </script>
+
+</body>
+</html>
