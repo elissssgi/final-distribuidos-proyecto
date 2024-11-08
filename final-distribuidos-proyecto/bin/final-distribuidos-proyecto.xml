@@ -37,99 +37,54 @@ final-distribuidos-proyecto
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
-<member name="F:final_distribuidos_proyecto.cine._gdvCine">
+<member name="F:final_distribuidos_proyecto.formato._btnAgregar">
 <summary>
-Control gdvCine.
+Control btnAgregar.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.cine._lblError">
+<member name="F:final_distribuidos_proyecto.formato._gvFormatos">
 <summary>
-Control lblError.
+Control gvFormatos.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.formato._ScriptManager1">
+<member name="F:final_distribuidos_proyecto.formato._panelEditar">
 <summary>
-Control ScriptManager1.
+Control panelEditar.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.formato._lblMensaje">
+<member name="F:final_distribuidos_proyecto.formato._lblTitulo">
 <summary>
-Control lblMensaje.
+Control lblTitulo.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.formato._lblError">
+<member name="F:final_distribuidos_proyecto.formato._lblNombreFormato">
 <summary>
-Control lblError.
+Control lblNombreFormato.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.formato._UpdatePanelFormato">
+<member name="F:final_distribuidos_proyecto.formato._txtNombreFormato">
 <summary>
-Control UpdatePanelFormato.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.formato._gdvFormato">
-<summary>
-Control gdvFormato.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.formato._pnlFormato">
-<summary>
-Control pnlFormato.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.formato._hfIdFormato">
-<summary>
-Control hfIdFormato.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.formato._lblNombre">
-<summary>
-Control lblNombre.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.formato._txtNombre">
-<summary>
-Control txtNombre.
+Control txtNombreFormato.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -154,36 +109,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.formato._btnAgregar">
+<member name="F:final_distribuidos_proyecto.formato._btnGuardar">
 <summary>
-Control btnAgregar.
+Control btnGuardar.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:final_distribuidos_proyecto.formato._btnModificar">
+<member name="F:final_distribuidos_proyecto.formato._btnCancelar">
 <summary>
-Control btnModificar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.formato._btnDarBajaAlta">
-<summary>
-Control btnDarBajaAlta.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:final_distribuidos_proyecto.formato._btnLimpiar">
-<summary>
-Control btnLimpiar.
+Control btnCancelar.
 </summary>
 <remarks>
 Campo generado automáticamente.

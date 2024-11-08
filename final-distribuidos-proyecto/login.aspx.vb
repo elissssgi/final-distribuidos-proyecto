@@ -12,7 +12,7 @@ Public Class login
                 If objUser.verificar_usuario(loginEmail.Text, loginPassword.Text) Then
                     lbl_error.Text = "Usuario correcto"
                     errorContainer.Visible = False
-                    Response.Redirect("cine.aspx")
+                    Response.Redirect("principal.aspx")
                 Else
                     lbl_error.Text = "Usuario incorrecto"
                     lbl_error.Visible = True

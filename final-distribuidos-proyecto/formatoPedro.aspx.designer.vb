@@ -14,85 +14,58 @@ Option Explicit On
 Partial Public Class formato
 
     '''<summary>
-    '''Control ScriptManager1.
+    '''Control btnAgregar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
+    Protected WithEvents btnAgregar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control lblMensaje.
+    '''Control gvFormatos.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblMensaje As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents gvFormatos As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''Control lblError.
+    '''Control panelEditar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblError As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents panelEditar As Global.System.Web.UI.WebControls.Panel
 
     '''<summary>
-    '''Control UpdatePanelFormato.
+    '''Control lblTitulo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents UpdatePanelFormato As Global.System.Web.UI.UpdatePanel
+    Protected WithEvents lblTitulo As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control gdvFormato.
+    '''Control lblNombreFormato.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents gdvFormato As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents lblNombreFormato As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control pnlFormato.
+    '''Control txtNombreFormato.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents pnlFormato As Global.System.Web.UI.WebControls.Panel
-
-    '''<summary>
-    '''Control hfIdFormato.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents hfIdFormato As Global.System.Web.UI.WebControls.HiddenField
-
-    '''<summary>
-    '''Control lblNombre.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblNombre As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control txtNombre.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents txtNombre As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtNombreFormato As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control lblVigencia.
@@ -113,38 +86,20 @@ Partial Public Class formato
     Protected WithEvents chkVigencia As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''Control btnAgregar.
+    '''Control btnGuardar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnAgregar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnGuardar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control btnModificar.
+    '''Control btnCancelar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnModificar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control btnDarBajaAlta.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnDarBajaAlta As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control btnLimpiar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnLimpiar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnCancelar As Global.System.Web.UI.WebControls.Button
 End Class

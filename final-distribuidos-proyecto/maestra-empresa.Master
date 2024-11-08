@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css">
 
     <title>
         <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
@@ -115,6 +116,19 @@
                     margin-left: 0;
                 }
         }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            border-radius: 50px;
+            padding: 10px 30px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
     </style>
 </head>
 <body>
@@ -160,15 +174,15 @@
             </div>
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center" href="gestionarCine.aspx">
-                        <i class="bi bi-gear nav-icon me-2"></i>
-                        <span class="nav-link-text">Gestionar Cine</span>
+                    <a class="nav-link d-flex align-items-center" href="principal.aspx">
+                        <i class="bi bi-house-fill nav-icon me-2"></i>
+                        <span class="nav-link-text">Inicio</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link d-flex align-items-center" href="login.aspx">
-                        <i class="bi bi-box-arrow-in-right nav-icon me-2"></i>
-                        <span class="nav-link-text">Login</span>
+                        <i class="bi bi-box-arrow-left nav-icon me-2"></i>
+                        <span class="nav-link-text">Cerrar sesion</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -196,7 +210,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center" href="formato.aspx">
+                    <a class="nav-link d-flex align-items-center" href="formatoPedro.aspx">
                         <i class="bi bi-credit-card nav-icon me-2"></i>
                         <span class="nav-link-text">Formato de pelicula</span>
                     </a>
@@ -229,13 +243,18 @@
         </nav>
 
         <!-- Content Area -->
-        <form runat="server">
-            <div class="content-area">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
-            </div>
-        </form>
+
+        <div class="content-area">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
 
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- Bootstrap JavaScript -->
