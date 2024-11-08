@@ -52,6 +52,8 @@ C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\b
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\roslyn\VBCSCompiler.exe
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\System.Data.SqlClient.dll
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\System.Data.SqlClient.xml
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.vbproj.AssemblyReference.cache
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final_distribuidos_proyecto.Resources.resources
@@ -61,3 +63,5 @@ C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\o
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.dll
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.xml
 C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\obj\Debug\final-distribuidos-proyecto.pdb
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaDatos.dll
+C:\Users\elect\Desktop\final-distribuidos-proyecto\final-distribuidos-proyecto\bin\capaNegocio.dll

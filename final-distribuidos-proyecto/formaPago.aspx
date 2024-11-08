@@ -13,6 +13,7 @@
             <button type="button" class="btn btn-primary" onclick="abrirFormaPagoModal()">
                 <i class="bi bi-plus-circle me-2"></i>Agregar Forma de Pago
            
+           
             </button>
         </div>
 
