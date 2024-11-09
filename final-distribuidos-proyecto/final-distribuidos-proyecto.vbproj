@@ -130,6 +130,7 @@
     <Content Include="entradas.aspx" />
     <Content Include="formaPago.aspx" />
     <Content Include="formatoPedro.aspx" />
+    <Content Include="idioma.aspx" />
     <Content Include="login.aspx" />
     <Content Include="principal.aspx" />
     <Content Include="registro.aspx" />
@@ -189,6 +190,13 @@
     </Compile>
     <Compile Include="formatoPedro.aspx.vb">
       <DependentUpon>formatoPedro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="idioma.aspx.designer.vb">
+      <DependentUpon>idioma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="idioma.aspx.vb">
+      <DependentUpon>idioma.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="login.aspx.designer.vb">
