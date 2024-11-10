@@ -130,6 +130,7 @@
     <Content Include="entradas.aspx" />
     <Content Include="formaPago.aspx" />
     <Content Include="formatoPedro.aspx" />
+    <Content Include="GestionarUsuario.aspx" />
     <Content Include="idioma.aspx" />
     <Content Include="login.aspx" />
     <Content Include="principal.aspx" />
@@ -140,6 +141,7 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="TipoSocio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +192,13 @@
     </Compile>
     <Compile Include="formatoPedro.aspx.vb">
       <DependentUpon>formatoPedro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GestionarUsuario.aspx.designer.vb">
+      <DependentUpon>GestionarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarUsuario.aspx.vb">
+      <DependentUpon>GestionarUsuario.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="idioma.aspx.designer.vb">
@@ -245,6 +254,13 @@
     <Compile Include="registro.aspx.vb">
       <DependentUpon>registro.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TipoSocio.aspx.designer.vb">
+      <DependentUpon>TipoSocio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TipoSocio.aspx.vb">
+      <DependentUpon>TipoSocio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
