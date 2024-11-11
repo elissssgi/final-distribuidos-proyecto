@@ -199,7 +199,6 @@
     </Compile>
     <Compile Include="GestionarUsuario.aspx.vb">
       <DependentUpon>GestionarUsuario.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="idioma.aspx.designer.vb">
       <DependentUpon>idioma.aspx</DependentUpon>

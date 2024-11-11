@@ -185,6 +185,12 @@
                         <span class="nav-link-text">Cerrar sesion</span>
                     </a>
                 </li>
+                 <li class="nav-item">
+                 <a class="nav-link d-flex align-items-center" href="GestioonarUsuario.aspx">
+                     <i class="bi bi-box-arrow-left nav-icon me-2"></i>
+                     <span class="nav-link-text">Gestionar Usuario</span>
+                 </a>
+              </li>
                 <li class="nav-item">
                     <a class="nav-link d-flex align-items-center" href="entradas.aspx">
                         <i class="bi bi-ticket-perforated nav-icon me-2"></i>
